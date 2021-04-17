@@ -1,0 +1,4 @@
+FROM node:14.16.0-alpine AS front
+WORKDIR ./front
+RUN cd front && npm install & npm run build & npm run start
+EXPOSE 3000
