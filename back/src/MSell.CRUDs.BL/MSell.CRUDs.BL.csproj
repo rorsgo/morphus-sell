@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MSell.CRUDs.DAL\MSell.CRUDs.DAL.csproj" />
+    <ProjectReference Include="..\MSell.CRUDs.Models\MSell.CRUDs.Share.csproj" />
+  </ItemGroup>
+
+</Project>
