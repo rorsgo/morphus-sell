@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-
+using MSell.CRUDs.API.src;
 
 namespace MSell.CRUDs.API
 {
@@ -15,7 +15,7 @@ namespace MSell.CRUDs.API
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<src.Startup>();
+                    webBuilder.UseStartup<Startup>();
                 });
     }
 }
