@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using MSell.CRUDs.API.src;
 
-namespace MSell.CRUDs.API
+namespace MSell.CRUDs.API.src
 {
     public class Program
     {
